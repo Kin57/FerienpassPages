@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferienpass - Summer Course Registration</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        #content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 5% 10%;
+            text-align: center;
+        }
+
+        h1.headline {
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: bold;
+            margin-bottom: 1.5rem;
+        }
+
+        p {
+            font-size: clamp(1rem, 2.5vw, 1.2rem);
+            margin-bottom: 1rem;
+            text-align: justify;
+        }
+
+        .feature {
+            font-weight: bold;
+            color: #09ea70;
+        }
+
+        .dot {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(5px);
+            opacity: 60%;
+            z-index: -1;
+        }
+
+        #dot1 {
+            height: 15vw;
+            width: 15vw;
+            top: 10%;
+            left: 5%;
+            background-color: #21EC7A;
+        }
+
+        #dot2 {
+            height: 20vw;
+            width: 20vw;
+            top: 50%;
+            left: 80%;
+            background-color: #21EC7A;
+        }
+
+        #dot3 {
+            height: 12vw;
+            width: 12vw;
+            top: 85%;
+            left: 70%;
+            background-color: #78EFAD;
+        }
+
+        @media (max-width: 768px) {
+            #content {
+                padding: 5% 5%;
+            }
+
+            .dot {
+                filter: blur(5px);
+                opacity: 60%;
+            }
+
+            #dot1, #dot2, #dot3 {
+                height: 20vw;
+                width: 20vw;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1.headline {
+                font-size: clamp(1.5rem, 4vw, 2rem);
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            .dot {
+                filter: blur(5px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <h1 class="headline">Ferienpass - Solution for Summer Course Registration</h1>
+        <p>
+            Ferienpass is a modern web application/app to replace outdated, paper-based systems for enrolling children in summer activities. Families can browse courses and register online, eliminating the need for bulky catalogs and in-person sign-ups at the local council office. Furthermore, it replaces the first-come, first-served principle with an algorithm to ensure fair course allocation.
+        </p>
+
+        <p>
+            <span class="feature">Fair Allocation:</span> A randomized algorithm ensures all children have equal chances to join popular courses.
+        </p>
+        <p>
+            <span class="feature">Priority Lists:</span> Parents can rank their child's preferred courses for personalized matching.
+        </p>
+        <p>
+            <span class="feature">Sustainability:</span> Fully digital, reducing paper waste.
+        </p>
+
+        <p>
+            Ferienpass makes summer planning easier, greener, and fairer for families and communities alike. 
+            <br><br>
+            <strong>Contributors:</strong> This project is developed by an agile team of 5 software developers and designers using the Scrum methodology.
+        </p>
+
+        <h1 class="headline">The Project "Ferienpass" is currently in development. Come back at a later time to see its finished status.</h1>
+    </div>
+
+    <div class="dot" id="dot1"></div>
+    <div class="dot" id="dot2"></div>
+    <div class="dot" id="dot3"></div>
+</body>
+</html>
