@@ -1,1 +1,2 @@
 # FerienpassPages
+All rights reserved.
